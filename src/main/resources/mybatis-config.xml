@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<!-- 根标签， mybatis 配置要加这里 -->
+<configuration>
+
+    <mappers>
+        <mapper resource="mappers/tbadminMapper.xml"></mapper>
+        <mapper resource="mappers/tbmenusMapper.xml"></mapper>
+        <mapper resource="mappers/tbrolesMapper.xml"></mapper>
+        <mapper resource="mappers/tbrolesmenusMapper.xml"></mapper>
+    </mappers>
+
+
+
+</configuration>
